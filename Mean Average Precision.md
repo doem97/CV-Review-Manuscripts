@@ -7,10 +7,14 @@ See also:
 
 ## Preprocessing Step:
 For each image, the bounding box are get from Non Max Suppression （NMS）. It selets the outstanding box from a cluster of predicted boxes.
-![image](https://user-images.githubusercontent.com/19631039/118779513-b3372f00-b8bd-11eb-937c-e9ea53ed0264.png)
-![image](https://user-images.githubusercontent.com/19631039/118779576-c813c280-b8bd-11eb-8ffb-260e0e386de3.png)
-![image](https://user-images.githubusercontent.com/19631039/118779642-d4981b00-b8bd-11eb-8b78-28cdae97e9bd.png)
-![image](https://user-images.githubusercontent.com/19631039/118779958-2476e200-b8be-11eb-909b-04040853abfc.png)
+
+![image](https://user-images.githubusercontent.com/19631039/118779513-b3372f00-b8bd-11eb-937c-e9ea53ed0264.png=500)
+
+![image](https://user-images.githubusercontent.com/19631039/118779576-c813c280-b8bd-11eb-8ffb-260e0e386de3.png=500)
+
+![image](https://user-images.githubusercontent.com/19631039/118779642-d4981b00-b8bd-11eb-8b78-28cdae97e9bd.png=500)
+
+![image](https://user-images.githubusercontent.com/19631039/118779958-2476e200-b8be-11eb-909b-04040853abfc.png=500)
 
 ## mAP Steps
 1. For each class:
