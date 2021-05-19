@@ -1,20 +1,18 @@
 # Mean Average Precision
 **Input** (a serial of predicted boxes with confidence, ground truth boxes) over a batch of images like this:
-![image](https://user-images.githubusercontent.com/19631039/118779193-63f0fe80-b8bd-11eb-9d4f-e52890f88912.png =500x)
+
+<img src="https://user-images.githubusercontent.com/19631039/118779193-63f0fe80-b8bd-11eb-9d4f-e52890f88912.png" width="500">
+
 Red is predicted, Green is Ground Truth.
 See also:
 [COCO dataset metric](https://cocodataset.org/#detection-eval)
 
 ## Preprocessing Step:
 For each image, the bounding box are get from Non Max Suppression （NMS）. It selets the outstanding box from a cluster of predicted boxes.
-
-![image](https://user-images.githubusercontent.com/19631039/118779513-b3372f00-b8bd-11eb-937c-e9ea53ed0264.png =500x)
-
-![image](https://user-images.githubusercontent.com/19631039/118779576-c813c280-b8bd-11eb-8ffb-260e0e386de3.png =500x)
-
-![image](https://user-images.githubusercontent.com/19631039/118779642-d4981b00-b8bd-11eb-8b78-28cdae97e9bd.png =500x)
-
-![image](https://user-images.githubusercontent.com/19631039/118779958-2476e200-b8be-11eb-909b-04040853abfc.png =500x)
+<img src="https://user-images.githubusercontent.com/19631039/118779513-b3372f00-b8bd-11eb-937c-e9ea53ed0264.png" width="500">
+<img src="https://user-images.githubusercontent.com/19631039/118779576-c813c280-b8bd-11eb-8ffb-260e0e386de3.png" width="500">
+<img src="https://user-images.githubusercontent.com/19631039/118779642-d4981b00-b8bd-11eb-8b78-28cdae97e9bd.png" width="500">
+<img src="https://user-images.githubusercontent.com/19631039/118779958-2476e200-b8be-11eb-909b-04040853abfc.png" width="500">
 
 ## mAP Steps
 1. For each class:
