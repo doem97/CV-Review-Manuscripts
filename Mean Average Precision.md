@@ -16,10 +16,9 @@ For each image, the bounding box are get from Non Max Suppression （NMS）. It 
 
 ## mAP Steps
 1. For each class:
-  1.  Calculate TP/FP for each predicted box, based on IoU matching with each ground truth. If can find a ground truth with IoU > **Threshold_IoU**, set as TP; else FP.
-  2. Descent listing the confidence, calculate the accumulated precision and recall.
-  3. AP is the Area under P-R curve.
-
+    1.  Calculate TP/FP for each predicted box, based on IoU matching with each ground truth. If can find a ground truth with IoU > **Threshold_IoU**, set as TP; else FP.
+    2. Descent listing the confidence, calculate the accumulated precision and recall.
+    3. AP is the Area under P-R curve.
 2. Do 1-3 for each class. mAP is average among classes.
 
 ## AP@.5;.05;.95
